@@ -1,0 +1,14 @@
+{
+  "name": "dhre-security-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node serve.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0"
+  }
+}
