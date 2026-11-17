@@ -867,7 +867,7 @@ const postSync = (type, payload) => {
    turn shared sync on. With no URL the dashboard never leaves this browser.
    Poll cadence is localStorage "dhre_sync_interval" in ms (default 3000); raise
    it to spend fewer requests against the sync service's plan.                  */
-const SYNC_API = "";
+const SYNC_API = "/api/sync";
 const REV_KEY = "__dhre_sync_rev";
 const SYNC_INTERVAL = 3000;
 const REMOTE = {
